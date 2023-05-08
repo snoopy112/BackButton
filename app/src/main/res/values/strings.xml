@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BackButton</string>
+
+    <string name="service_switch">Start Service</string>
+    <string name="enable_access_str">Accessibility Settings</string>
+    <string name="enable_overlay_str">Overlay Permission</string>
+
+    <string name="accessibility_service_label">Back Button Service</string>
+    <string name="accessibility_service_description">BackButton service adds overlay system button with Back, Home and Show Recent Apps functions</string>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="theme_switch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/main</item>
+        <item name="android:colorForeground">@color/white</item>
+    </style>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <Switch
+        android:id="@+id/start_switch"
+        android:theme="@style/theme_switch"
+        android:text="@string/service_switch"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@color/alp_gray"
+        android:layout_gravity="center_horizontal"
+        android:padding="12dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/enable_access"
+        android:text="@string/enable_access_str"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@color/alp_gray"
+        android:layout_gravity="start"
+        android:padding="12dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_settings"/>
+
+    <TextView
+        android:id="@+id/enable_overlay"
+        android:text="@string/enable_overlay_str"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@color/alp_gray"
+        android:layout_gravity="start"
+        android:padding="12dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_settings"/>
+
+</LinearLayout>
