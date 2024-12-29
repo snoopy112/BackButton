@@ -47,7 +47,7 @@ public class MainActivity extends Activity {
         enableAccess.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent("android.settings.ACCESSIBILITY_SETTINGS"));
+                startActivity(new Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS));
             }
         });
 
@@ -116,7 +116,7 @@ public class MainActivity extends Activity {
     private boolean checkAccessibilityPerms() {
         final int REQUEST_CODE = 1002;
         if (!isAccessibilityServiceEnabled(this, BackButtonService.class)) {
-            Intent intent = new Intent("android.settings.ACCESSIBILITY_SETTINGS");
+            Intent intent = new Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS);
             startActivityForResult(intent, REQUEST_CODE);
             return false;
         }
